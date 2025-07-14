@@ -1,0 +1,10 @@
+../Core/User/eeprom.c:56:5:at24_HAL_WriteBytes	40	static
+../Core/User/eeprom.c:81:5:at24_HAL_ReadBytes	48	static
+../Core/User/eeprom.c:124:5:at24_HAL_SequentialRead	40	static
+../Core/User/eeprom.c:152:5:at24_HAL_EraseMemFull	56	static
+../Core/User/eeprom.c:182:5:at24_HAL_WriteString	72	dynamic
+../Core/User/eeprom.c:204:5:at24_HAL_ReadString	72	dynamic
+../Core/User/eeprom.c:215:5:at24_HAL_WriteWords	72	dynamic
+../Core/User/eeprom.c:241:5:at24_HAL_ReadWords	72	dynamic
+../Core/User/eeprom.c:258:5:at24_HAL_WriteFloat	64	dynamic
+../Core/User/eeprom.c:270:5:at24_HAL_ReadFloat	64	dynamic

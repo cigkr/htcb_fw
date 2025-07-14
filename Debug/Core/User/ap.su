@@ -1,0 +1,10 @@
+../Core/User/ap.c:72:6:subTask	48	static
+../Core/User/ap.c:171:6:mainTask	48	static
+../Core/User/ap.c:424:7:lpf	32	static
+../Core/User/ap.c:429:6:UpDateEncoder	16	static
+../Core/User/ap.c:749:6:DataManager	24	static
+../Core/User/ap.c:999:6:LoadParameter	80	static
+../Core/User/ap.c:1054:6:ResetParameter	80	static
+../Core/User/ap.c:1083:8:ParamterSet	32	static
+../Core/User/ap.c:1288:6:HAL_GPIO_EXTI_Callback	16	static
+../Core/User/ap.c:1297:6:Callback01	16	static
