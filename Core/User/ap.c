@@ -83,7 +83,7 @@ void subTask(void *argument)
 	HAL_TIM_Base_Start(&htim6);
 	HAL_TIM_Base_Start(&htim7);
 
-
+	printf("github test");
 	for(;;)
 	{
 		uint16_t compVal1;

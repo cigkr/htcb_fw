@@ -65,8 +65,8 @@ all: main-build
 main-build: htcb_fw_v1.elf secondary-outputs
 
 # Tool invocations
-htcb_fw_v1.elf htcb_fw_v1.map: $(OBJS) $(USER_OBJS) D:\Work\HaramTech\New\ Control\ Board\HTCB_STM32\htcb_fw\STM32F103VETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "htcb_fw_v1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"D:\Work\HaramTech\New Control Board\HTCB_STM32\htcb_fw\STM32F103VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="htcb_fw_v1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+htcb_fw_v1.elf htcb_fw_v1.map: $(OBJS) $(USER_OBJS) D:\htcb_fw\STM32F103VETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "htcb_fw_v1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"D:\htcb_fw\STM32F103VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="htcb_fw_v1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
